@@ -46,10 +46,21 @@ Traveller.prototype.calculateTotalDistanceTravelled = function () {
 
   return totalDistance;
 };
+//
+// I want to create a unique transport Array
+// I want to add a transport to the unique transport array if that transport is not already in there - I need some form of check to do this.
+// I then want to return the unique transport array
 
-Traveller.prototype.getUniqueModesOfTransport = function () {
+// Traveller.prototype.getUniqueModesOfTransport = function () {
+//   const uniqueTransport = this.journeys.filter((journey) => {
+//     return journey.transport
+//
+//      // uniqueTransport
+//
+//   })
+//   return uniqueTransport;
+// };
 
-};
 
 
 module.exports = Traveller;
